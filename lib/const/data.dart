@@ -1,0 +1,88 @@
+import 'package:real_estate/model/property_model.dart';
+
+final List<PropertyModel> properties = [
+  PropertyModel(
+    id: '1',
+    title: 'Whispering Pines',
+    price: '\$20,000',
+    priceType: '',
+    location: 'Anand Nelson',
+    bedrooms: 3,
+    sqFeet: 800,
+    bathrooms: 4,
+    propertyType: 'Ready to Move',
+    imageUrl:
+        'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    isForSale: true,
+    isFavorite: true,
+    floorPlanImages: [
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvbWV8ZW58MHx8MHx8fDA%3D',
+      'https://images.unsplash.com/photo-1560448075-bb485b067938?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    ],
+  ),
+  PropertyModel(
+    id: '2',
+    title: 'Modern Blue',
+    price: '\$25,000',
+    priceType: '/month',
+    location: 'Downtown Area',
+    bedrooms: 4,
+    sqFeet: 1200,
+    bathrooms: 3,
+    propertyType: 'House',
+    imageUrl:
+        'https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    isForSale: true,
+    isFavorite: false,
+    floorPlanImages: [
+      'https://i.pinimg.com/736x/66/5b/f2/665bf2a4c0e97a6564e7ac829b3820d9.jpg',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvbWV8ZW58MHx8MHx8fDA%3D',
+      'https://i.pinimg.com/736x/00/03/7c/00037cd319005e74206fd1d11157d038.jpg',
+    ],
+  ),
+  PropertyModel(
+    id: '3',
+    title: 'Luxury Apartment',
+    price: '\$15,000',
+    priceType: '/month',
+    location: 'City Center',
+    bedrooms: 2,
+    sqFeet: 600,
+    bathrooms: 2,
+    propertyType: 'Apartment',
+    imageUrl:
+        'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    isForSale: false,
+    isFavorite: false,
+    floorPlanImages: [
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvbWV8ZW58MHx8MHx8fDA%3D',
+      'https://images.unsplash.com/photo-1560448075-bb485b067938?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    ],
+  ),
+  PropertyModel(
+    id: '4',
+    title: 'Elegant Villa',
+    price: '\$50,000',
+    priceType: '',
+    location: 'Hillside Estate',
+    bedrooms: 5,
+    sqFeet: 2000,
+    bathrooms: 4,
+    propertyType: 'Villa',
+    imageUrl:
+        'https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80',
+    isForSale: true,
+    isFavorite: false,
+    floorPlanImages: [
+      'https://i.pinimg.com/1200x/a4/d5/4f/a4d54f6e1a2e9af641bf95689762fb9e.jpg',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvbWV8ZW58MHx8MHx8fDA%3D',
+      'https://i.pinimg.com/1200x/8b/3a/2f/8b3a2f07ddb0f40b0e3160770b23e440.jpg',
+    ],
+  ),
+];
